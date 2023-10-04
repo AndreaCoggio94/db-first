@@ -20,5 +20,5 @@ Mi raccomando: quello che ci interessa sono: il nome della colonna, il tipo di d
 | Note             | TEXT        | NULL                 |
 | Plate IT         | CHAR(7)     | NOTNULL              |
 | Kilometers       | MEDIUMINT   | UNSIGNED\|NOTNULL    |
-| Fuel             | VARCHAR(25) | NOTNULL              |
+| Fuel Type        | VARCHAR(25) | NOTNULL              |
 | Condition        | TINYINT     | UNSIGNED\|DEFAULT(1) |
