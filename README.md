@@ -10,15 +10,15 @@ Mi raccomando: quello che ci interessa sono: il nome della colonna, il tipo di d
 
 | COLONNA          | TIPO        | ATTRIBUTI            |
 | ---------------- | ----------- | -------------------- |
-| Chassis          | BIGINT      | PRIMARY KEY          |
-| Brand            | VARCHAR(50) | NOTNULL              |
-| Model            | VARCHAR(50) | NOTNULL              |
-| Displacemenet    | SMALLINT    | UNSIGNED\|NULL       |
-| Production Year  | YEAR        | NOTNULL              |
-| Price            | MEDIUMINT   | UNSIGNED\|NOTNULL    |
-| Number of Owners | TINYINT     | UNSIGNED\|DEFAULT(1) |
-| Note             | TEXT        | NULL                 |
-| Plate IT         | CHAR(7)     | NOTNULL              |
-| Kilometers       | MEDIUMINT   | UNSIGNED\|NOTNULL    |
-| Fuel Type        | VARCHAR(25) | NOTNULL              |
-| Condition        | TINYINT     | UNSIGNED\|DEFAULT(1) |
+| chassis          | BIGINT      | PRIMARY KEY          |
+| brand            | VARCHAR(50) | NOTNULL              |
+| model            | VARCHAR(50) | NOTNULL              |
+| displacemenet    | SMALLINT    | UNSIGNED\|NULL       |
+| production_year  | YEAR        | NOTNULL              |
+| price            | MEDIUMINT   | UNSIGNED\|NOTNULL    |
+| number_of_owners | TINYINT     | UNSIGNED\|DEFAULT(1) |
+| note             | TEXT        | NULL                 |
+| plate_it         | CHAR(7)     | NOTNULL              |
+| kilometers       | MEDIUMINT   | UNSIGNED\|NOTNULL    |
+| fuel_type        | CHAR(2)     | NOTNULL              |
+| condition        | TINYINT     | UNSIGNED\|DEFAULT(1) |
